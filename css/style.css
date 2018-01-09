@@ -187,17 +187,18 @@ body {
     top: 0;
 }
 .sousuokuang{
+    width: 75%;
     padding-top:0.4rem;
     margin:0 auto;
     position: absolute;
     top: 0;
     z-index: 2;
 }
-.sousuokuang input{
-    padding:0.2rem;
-    border-radius: 0.5rem;
-    border: none;
-    margin-left: 0.3rem;
+.sousuokuang input[type="text"]{
+    width: 75%;
+    height: 1rem;
+    border:2px solid #eee;
+    border-radius: 0.2rem;
 }
 .logo{
     height: 1.96875rem;

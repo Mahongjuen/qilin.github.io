@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+}
+.head a img{
+    width: 10rem;
+    height: 5rem;
+}
+.pinjia{
+    width: 10rem;
+    height:6rem;
+    background:#eee;
+}
+.jiuzhou{
+    width: 9rem;
+    margin:0 auto;
+}
+.jiuzhou h1{
+    float: left;
+    font-size: 20px;
+    margin-top: 0.2rem;
+}
+[data-dpr="2"] .jiuzhou h1{
+    font-size: 36px;
+}
+[data-dpr="3"] .jiuzhou h1{
+    font-size: 59px;
+}
+.jiuzhou span{
+    padding:0.3rem 0.5rem;
+    margin-top: 0.2rem;
+    font-size: 18px;
+    background: #5aa700;
+    color: #fff;
+    float: right;
+}
+[data-dpr="2"] .jiuzhou span{
+    font-size: 36px;
+}
+[data-dpr="3"] .jiuzhou span{
+    font-size: 59px;
+}
+.jiuzhou p{
+    float: left;
+    font-size: 15px;
+    line-height: 0.5rem;
+}
+[data-dpr="2"] .jiuzhou p{
+    font-size: 30px;
+}
+[data-dpr="3"] .jiuzhou p{
+    font-size: 45px;
+}
+.jujiliebiao{
+    width: 10rem;
+}
+.jujiliebiao ul li{
+    height: 1rem;
+    background: rgba(0, 0, 0, 0.35);
+    float: left;
+}
+.jujiliebiao ul li a{
+    padding:0.2rem 0.86rem;
+    font-size: 20px;
+    line-height: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.jujiliebiao ul li a:active{
+    background: #fff;
+    color: #5aa700;
+}
+[data-dpr="2"] .jujiliebiao ul li a{
+    font-size: 30px;
+}
+[data-dpr="3"] .jujiliebiao ul li a{
+    font-size: 50px;
+}
+.jujiliebiao p{
+    height: 1rem;
+    font-size: 18px;
+    line-height: 1rem;
+    margin-left: 0.8rem;
+    float: left;
+    display: block;
+}
+[data-dpr="2"] .jujiliebiao p{
+    font-size: 30px;
+}
+[data-dpr="3"] .jujiliebiao p{
+    font-size: 50px;
+}
+.jujiliebiao p span{
+    width: 1rem;
+    height: 0.2rem;
+    padding: 0.2rem 0.8rem;
+    border:2px solid #5aa700;
+    border-radius: 0.12rem;
+    text-align: center;
+    line-height: 0.2rem;
+}
+.liebaioye{
+    width: 10rem;
+    float: left;
+    margin-top: 0.2rem;
+}
+.liebaioye a{
+    width: 3rem;
+    height: 3.5rem;
+    float: left;
+}
+.liebaioye a img{
+    width: 3rem;
+    height: 2rem;
+    margin-left: 0.4rem;
+    padding:0 0.1rem;
+}
+.liebaioye a p{
+    width: 3rem;
+    height: 1.5rem;
+    margin-left:0.45rem;
+    float: left;
+    line-height: 0.5rem;
+    color: #000;
+    font-size: 13px;
+}
+[data-dpr="2"] .liebaioye a p{
+    font-size: 26px;
+}
+[data-dpr="3"] .liebaioye a p{
+    font-size: 39px;
+}
